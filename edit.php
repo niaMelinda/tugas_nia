@@ -10,7 +10,9 @@
 <form method="get" action="proses_tambah.php">
         <p>Nama <input name="nama" type="text"></p>
         <p>Kelas <input name="kelas" type="text"></p>
-        <p>Id <input name="id" type="text"></p>
-        <button type="submit">simpan</button>
+        <p>Id <input name="id" type="number"></p>
+        <button type="submit">Simpan</button>
+
+         
 </body>
 </html>

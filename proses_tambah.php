@@ -6,4 +6,4 @@ $id =$_GET['id'];
 $database = new PDO('mysql:host=localhost;dbname=mutu','root',"");
 $query = $database->query("insert into siswa values('$id','$nama','$kelas')");
 
-header("location:koneksi.php")
+header("location:koneksi.php");

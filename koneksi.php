@@ -1,13 +1,13 @@
 <?php
 
-$dbh = new PDO ('mysql:host=localhost;dbname=sakola',"root","");
+$dbh = new PDO ('mysql:host=localhost;dbname=mutu',"root","");
 
-$query = $dbh->query('select * from student');
+$query = $dbh->query('select * from siswa');
 
-?>
+while($data = $query->fetch()){
+      echo"<p>".$data ['nama']. "</p>";
 
-<h1>Data siswa</h1>
+ }      
 
-<?php while($result = $query->fetch()){?>
-      <p><?= $result ['nama']; ?>
-<?php  } ?>       
+
+ 
