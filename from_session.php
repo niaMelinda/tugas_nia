@@ -8,9 +8,9 @@
 </head>
 <body>
 <form method="get" action="coba_tampil_session.php">
-        <p>Username<input name="Username" type="text"></p>
-        <p>Id <input name="Id" type="text"></p>
-        <button type="submit">Simpan</button>
+        <p>Username : <input name="Username : " type="text"></p>
+        <p>Id : <input name="Id : " type="text"></p>
+        <button type="submit">Proses</button>
 
     
 </body>
